@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #086a87;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    background: #0b2f3a;
+}
+
+#header #centro1{
+    width: 1050px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+}
+
+#header #centro1 #logo{
+    width: 450px;
+    border: 0px solid;
+    float: left;
+}
+
+#header #centro1 #logo h2,p{
+    color: #fff;
+}
+#header #centro1 #logo p{
+    margin-top: -20px;
+    color: #04b4ae;;
+}
+
+/* ----- ahora para mi menu ------*/
+#header #menu{
+    width: 550px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: right;
+    margin-top: 40px;
+    text-align: right;
+}
+#header #menu ul li{
+    display: inline-block;
+}
+#header #menu ul li a{
+    color: azure;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+#header #menu ul li a:hover{
+    background: #0a2a29;
+}
+
+/* ----- ahora para presentación ------*/
+#presentacion{
+    width: 100%;
+    height: auto; overflow: hidden;
+    background: #064154;
+}
+#presentacion #centro2{
+    width: 800px;
+    margin: auto;
+}
+#presentacion #centro2 #izquierda{
+    width: 290px;
+    border: 0px solid;
+    float: left;;
+}
+#presentacion #centro2 #izquierda h2{
+    color: #fff;
+    font-weight: lighter;
+    text-align: left;
+}
+.description-pres{
+    color: #04b4ae;
+}
+.boton{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 0px;
+}
+.boton:hover{
+    background: #e6e6e6;
+    color: #0b615e;
+}
+#presentacion #centro2 #derecha{
+    width: 490px;
+    height: auto; float: right;
+}
+.img{
+    width: 470px;
+    height: 180px;
+    border: 3px solid #088a85;
+    margin: 10px 0px;
+    float: right;
+}
+
+
+/* ----- ahora para contenidos ------*/
+#contenidos{
+    background: #F2F2F2;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    /*height: auto; overflow: hidden;*/
+}
+#contenidos-somos{
+    background: #FFF;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+
+#contenidos #centro3{
+    width: 800px;
+    margin: auto; border: 0px solid; height: auto; overflow: hidden;
+}
+#contenidos #centro3 #izquierda{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+#contenidos #centro3 #izquierda h3,p{
+    color: #0b615e;
+}
+#contenidos #centro3 #izquierda .descripcion{
+    text-align: left; color: #6e6e6e;
+}
+.img-servicios{
+    width: 120px; height: 100px; display: inline-block;
+    padding: 2px; border: 0px solid #ccc;
+}
+
+
+
+
+
+
+/* ----- #contenidos derecha------*/
+#contenidos #centro3 #derecha{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: right;
+}
+#contenidos #centro3 #derecha h3{
+    text-align: left;
+    font-size: 24px;
+    color: #0b615e;
+}
+#contenidos #centro3 #derecha article{
+    width: 100%;
+    height: auto; overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenidos #centro3 #derecha article h4{
+    text-align: left; font-size: 15px;
+}
+#contenidos #centro3 #derecha article p{
+    text-align: left; color: #6e6e6e;
+    margin-top: -22px;
+}
+.leer-mas{
+    padding: 4px 10px;
+    background: #086a87;
+    text-decoration: none;
+    float: left;
+    border-radius: 6px;
+    color: #fff; border: 0;
+    margin-top: -15px;
+}
+
+#contenidos #centro3 #derecha article p{
+    text-align: left; color: #6e6e6e;
+    margin-top: -22px;
+}
+.leer-menos{
+    padding: 4px 10px;
+    background: #086a87;
+    text-decoration: none;
+    float: right;
+    border-radius: 6px;
+    color: #fff; border: 0;
+    margin-top: -15px;
+}
+
+
+
+/* ----- pie de pagina ------*/
+#pie{
+    width: 100%;
+    height: 90px;
+    background: #0b2f3a;
+}
+#pie #centro-pie{
+    width: 800px;
+    height: auto; overflow: hidden;
+    margin: auto;
+}
+.email{
+    color: #fff; text-decoration: none;
+}
+.email:hover{
+    text-decoration: underline;
+}
+
+/* ----- pagina somos------*/
+#centro3{
+    width: 800px;
+    margin: auto; border: 0px solid; 
+    height: auto; overflow: hidden;
+    text-align: center;
+}
+.encabezados{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62;
+}
+.t1{
+    color: #23246d;
+}
+.t2{
+    color: #064154;
+}
+.descripcion-somos{
+    color: #080808;
+    size: 32px;
+}
